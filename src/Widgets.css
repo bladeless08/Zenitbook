@@ -1,0 +1,10 @@
+.widgets {
+  background-color: black;
+  color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;  /* sticks relative to its parent container */
+  top: 80px;         /* distance from top (matches your header) */
+  max-height: 80vh;  /* prevent overflowing page */
+  overflow-y: auto;  /* allows scrolling inside the widget if content is tall */
+}

@@ -1,0 +1,50 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://www.hdwallpapers.in/download/zenitsu_agatsuma_black_background_4k_hd_demon_slayer_kimetsu_no_yaiba-HD.jpg");
+    background-repeat: no-repeat; /* prevent tiling */
+    background-size: cover; /* make it cover the whole area */
+
+}
+
+.login > button {
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: black;
+    color: gold;
+    font-weight: 800;
+    border-radius: 20px;
+    border: 2px solid gold;
+}
+
+.login > button:hover {
+    background: linear-gradient(to right, gold, black, gold);
+    color: gold;
+}
+
+/* Circle logo */
+.login__logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it a circle */
+  object-fit: cover;
+}
+
+/* Keep text logo normal */
+.login__text img {
+  width: 250px; /* adjust as you like */
+  height: auto; /* keeps natural shape */
+  border-radius: 0; /* reset circle effect */
+  margin-top: 20px;
+}
+
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+}

@@ -24,6 +24,7 @@ const handleSubmit = (e) => {
         username: user.displayName,
         image: imageUrl
     });
+    
     setInput("");
     setImageUrl("");
 }
